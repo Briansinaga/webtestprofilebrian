@@ -67,7 +67,6 @@ button {
   right: 20px;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
   .profile-image {
     width: 150px;
@@ -78,7 +77,7 @@ button {
   }
 }
 
-/* Dark mode */
+
 body.dark {
   background: #1a1a1a;
   color: #f1f1f1;
