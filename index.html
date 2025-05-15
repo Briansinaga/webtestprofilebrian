@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Profile - Brian Sinaga</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="image/top_picture.png" alt="Foto Profil" class="profile-image">
+    <h1>Brian Sinaga</h1>
+    <p>Saya adalah mahasiswa semester 6 Universitas Advent Indonesia, jurusan Teknik Informatika.</p>
+    <p>Saya tertarik pada pengembangan website, terutama di antarmuka pengguna, dan pernah mengerjakan project final membuat website saat kuliah.</p>
+  </header>
+
+  <section>
+    <h2>Skill</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Vue.js (Dasar)</li>
+      <li>Git</li>
+      <li>Responsive Design</li>
+      <li>Problem Solving</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Portofolio</h2>
+    <ul class="portfolio-list">
+      <li>
+        <strong>GoClean Platform</strong> - Website platform cleaning service
+        <img src="image/GoClean.webp" alt="GoClean Project">
+      </li>
+      <li>
+        <strong>Web Portfolio</strong> - Website pribadi
+        <img src="image/personalWeb.webp" alt="Web Portfolio">
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Kontak</h2>
+    <form id="contactForm">
+      <label for="name">Nama:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" required>
+
+      <label for="message">Pesan:</label>
+      <textarea id="message" rows="4" required></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <button id="toggleDark">Toggle Dark Mode</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
